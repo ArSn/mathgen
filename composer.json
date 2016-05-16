@@ -1,0 +1,9 @@
+{
+    "name": "ArSn/mathgen",
+    "description": "Elementary level math tasks generator.",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "itbz/fpdf": "^1.7"
+    }
+}
