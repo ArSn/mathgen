@@ -2,7 +2,7 @@
 
 namespace TaskGenerators;
 
-class PlusMinus
+class PlusMinus implements HasTaskData
 {
 	private $task;
 	private $result;
