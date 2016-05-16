@@ -25,7 +25,7 @@ require_once './menu.php';
 	<label> Zahl der Aufgaben
 		<input type="text" name="taskCount" value="104" />
 	</label>
-	<p>Zu verwendende Ziffern</p>
+	<p>Zu verwendende Zahlen</p>
 	<label>0 <input type="checkbox" name="numbers[]" value="0" /></label><br />
 	<label>1 <input type="checkbox" name="numbers[]" value="1" /></label><br />
 	<label>2 <input type="checkbox" name="numbers[]" value="2" /></label><br />
@@ -35,6 +35,7 @@ require_once './menu.php';
 	<label>6 <input type="checkbox" name="numbers[]" value="6" /></label><br />
 	<label>7 <input type="checkbox" name="numbers[]" value="7" /></label><br />
 	<label>8 <input type="checkbox" name="numbers[]" value="8" /></label><br />
-	<label>9 <input type="checkbox" name="numbers[]" value="9" /></label>
+	<label>9 <input type="checkbox" name="numbers[]" value="9" /></label><br />
+	<label>10 <input type="checkbox" name="numbers[]" value="10" /></label>
 	<p><input type="submit" value="Erstellen" /></p>
 </form>

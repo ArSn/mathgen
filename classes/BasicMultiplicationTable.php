@@ -12,7 +12,7 @@ class BasicMultiplicationTable implements HasTaskData
 		$first = $numbers[array_rand($numbers)];
 		$second = $numbers[array_rand($numbers)];
 
-		$this->task = $first . ' * ' . $second;
+		$this->task = $first . ' ' . utf8_decode('·') . ' ' . $second;
 		$this->result = $this->calculateResult($first, $second);
 		return true;
 	}
